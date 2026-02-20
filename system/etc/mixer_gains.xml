@@ -1,0 +1,903 @@
+<mixer>
+	<!-- Output volume stage -->
+	<!-- media playback volume -->
+	<path name="gain-media-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-media-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-media-headset">
+		<ctl name="DAC1 Playback Volume" value="163"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-media-speaker-headset">
+		<ctl name="DAC1 Playback Volume" value="155"/>
+		<ctl name="Speaker Playback Volume" value="33"/>
+		<ctl name="Headphone Playback Volume" value="3"/>
+	</path>
+
+	<path name="gain-media-bt-sco-headset">
+	</path>
+
+	<path name="gain-media-speaker-bt-sco-headset">
+	</path>
+
+	<!-- Ringtone playback volume -->
+	<path name="gain-ringtone-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-ringtone-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-ringtone-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-ringtone-speaker-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="31"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-ringtone-bt-sco-headset">
+	</path>
+
+	<path name="gain-ringtone-speaker-bt-sco-headset">
+	</path>
+
+	<!-- Communication playback volume -->
+	<path name="gain-communication-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-communication-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="32"/>
+	</path>
+
+	<path name="gain-communication-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-communication-headphone">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-communication-bt-sco-headset">
+	</path>
+
+	<!-- samsung voip playback volume -->
+	<path name="gain-samsung_voip-handset">
+	</path>
+
+	<path name="gain-samsung_voip-speaker">
+	</path>
+
+	<path name="gain-samsung_voip-headset">
+	</path>
+
+	<path name="gain-samsung_voip-headphone">
+	</path>
+
+	<path name="gain-samsung_voip-bt-sco-headset">
+	</path>
+
+	<!-- voip playback volume -->
+	<path name="gain-voip-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-voip-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="32"/>
+	</path>
+
+	<path name="gain-voip-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-voip-headphone">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-voip-bt-sco-headset">
+	</path>
+
+	<!-- Video call playback volume -->
+	<path name="gain-video_call-handset">
+	</path>
+
+	<path name="gain-video_call-speaker">
+	</path>
+
+	<path name="gain-video_call-headset">
+	</path>
+
+	<path name="gain-video_call-headphone">
+	</path>
+
+	<path name="gain-video_call-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE AP NB playback volume -->
+	<path name="gain-volte_vt_ap_nb-handset">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-speaker">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-headset">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-headphone">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE AP WB playback volume -->
+	<path name="gain-volte_vt_ap_wb-handset">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-speaker">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-headset">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-headphone">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE CP NB playback volume -->
+	<path name="gain-volte_cp_nb-handset">
+	</path>
+
+	<path name="gain-volte_cp_nb-speaker">
+	</path>
+
+	<path name="gain-volte_cp_nb-headset">
+	</path>
+
+	<path name="gain-volte_cp_nb-headphone">
+	</path>
+
+	<path name="gain-volte_cp_nb-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE CP NB/HANDOVER playback volume -->
+	<path name="gain-volte_cp_nb_handover-handset">
+	</path>
+
+	<path name="gain-volte_cp_nb_handover-speaker">
+	</path>
+
+	<!-- VoLTE CP NB/EXTRA_VOL playback volume -->
+	<path name="gain-volte_cp_nb_extra_vol-handset">
+	</path>
+
+	<path name="gain-volte_cp_nb_extra_vol-speaker">
+	</path>
+
+	<!-- VoLTE CP NB/EXTRA_VOL/HANDOVER playback volume -->
+	<path name="gain-volte_cp_nb_extra_vol_handover-handset">
+	</path>
+
+	<path name="gain-volte_cp_nb_extra_vol_handover-speaker">
+	</path>
+
+	<!-- VoLTE VT CP NB playback volume -->
+	<path name="gain-volte_vt_cp_nb-handset">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-speaker">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-headset">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-headphone">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE CP WB playback volume -->
+	<path name="gain-volte_cp_wb-handset">
+	</path>
+
+	<path name="gain-volte_cp_wb-speaker">
+	</path>
+
+	<path name="gain-volte_cp_wb-headset">
+	</path>
+
+	<path name="gain-volte_cp_wb-headphone">
+	</path>
+
+	<path name="gain-volte_cp_wb-bt-sco-headset">
+	</path>
+
+	<!-- VoLTE CP WB/EXTRA_VOL playback volume -->
+	<path name="gain-volte_cp_wb_extra_vol-handset">
+	</path>
+
+	<path name="gain-volte_cp_wb_extra_vol-speaker">
+	</path>
+
+	<!-- VoLTE VT CP WB playback volume -->
+	<path name="gain-volte_vt_cp_wb-handset">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-speaker">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-headset">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-headphone">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-bt-sco-headset">
+	</path>
+
+	<!-- CP Call Output volume -->
+	<!-- NB volume -->
+	<path name="gain-incall_nb-handset">
+	</path>
+
+	<path name="gain-incall_nb-speaker">
+	</path>
+
+	<path name="gain-incall_nb-headset">
+	</path>
+
+	<path name="gain-incall_nb-headphone">
+		<ctl name="AudioMixer MIX1_LVL" value="0" />
+	</path>
+
+	<path name="gain-incall_nb-bt-sco-headset">
+	</path>
+
+	<!-- NB/HANDOVER volume -->
+	<path name="gain-incall_nb_handover-handset">
+	</path>
+
+	<path name="gain-incall_nb_handover-speaker">
+	</path>
+
+	<!-- NB/EXTRA_VOL Volume-->
+	<path name="gain-incall_nb_extra_vol-handset">
+	</path>
+
+	<path name="gain-incall_nb_extra_vol-speaker">
+	</path>
+
+	<!-- NB/EXTRA_VOL/HANDOVER Volume-->
+	<path name="gain-incall_nb_extra_vol_handover-handset">
+	</path>
+
+	<path name="gain-incall_nb_extra_vol_handover-speaker">
+	</path>
+
+	<!-- WB volume -->
+	<path name="gain-incall_wb-handset">
+	</path>
+
+	<path name="gain-incall_wb-speaker">
+	</path>
+
+	<path name="gain-incall_wb-headset">
+	</path>
+
+	<path name="gain-incall_wb-headphone">
+	</path>
+
+	<path name="gain-incall_wb-bt-sco-headset">
+	</path>
+
+	<!-- WB/EXTRA_VOL Volume-->
+	<path name="gain-incall_wb_extra_vol-handset">
+	</path>
+
+	<path name="gain-incall_wb_extra_vol-speaker">
+	</path>
+
+	<!-- Loopback (no delay) volume -->
+	<path name="gain-loopback-headset">
+	</path>
+
+	<!-- Packet Loopback output volume-->
+	<path name="gain-loopback_packet-handset">
+	</path>
+
+	<path name="gain-loopback_packet-speaker">
+	</path>
+
+	<path name="gain-loopback_packet-headset">
+	</path>
+
+	<!-- Realtime Loopback output volume-->
+	<path name="gain-realtimeloopback-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-realtimeloopback-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="39"/>
+	</path>
+
+	<path name="gain-realtimeloopback-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+	
+	<!-- Codec Loopback output volume-->
+	<path name="gain-loopback_codec-handset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Mono Playback Volume" value="31"/>
+	</path>
+
+	<path name="gain-loopback_codec-speaker">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Speaker Playback Volume" value="39"/>
+	</path>
+
+	<path name="gain-loopback_codec-headset">
+		<ctl name="DAC1 Playback Volume" value="175"/>
+		<ctl name="Headphone Playback Volume" value="31"/>
+	</path>
+
+	<!-- TTY Mode volume-->
+	<path name="gain-tty_mode-handset">
+	</path>
+
+	<path name="gain-tty_mode-headset">
+	</path>
+
+	<!-- call forwarding output volume -->
+	<path name="gain-call_forwarding_master">
+	</path>
+
+	<path name="gain-call_forwarding_slave-handset">
+	</path>
+
+	<path name="gain-call_forwarding_slave-speaker">
+	</path>
+
+	<path name="gain-call_forwarding_slave-headset">
+	</path>
+
+	<path name="gain-call_forwarding_slave-headphone">
+	</path>
+
+	<path name="gain-call_forwarding_slave-bt-sco-headset">
+	</path>
+
+	<!-- Input stage volume -->
+	<!-- media input volume -->
+	<path name="gain-media-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-media-headset-mic">
+		<ctl name="IN1 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-media-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-media-bt-sco-headset-in">
+		<ctl name="AudioMixer RMIX2_LVL" value="0" />
+	</path>
+
+	<!-- camcorder input volume -->
+	<path name="gain-camcorder-mic">
+		<ctl name="IN3 Boost Volume" value="43"/>
+		<ctl name="STO1 ADC Capture Volume" value="46"/>
+	</path>
+
+	<path name="gain-camcorder-headset-mic">
+		<ctl name="IN1 Boost Volume" value="0"/>
+		<ctl name="STO1 ADC Capture Volume" value="101"/>
+	</path>
+
+	<path name="gain-camcorder-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<!-- voice recording input volume -->
+
+	<path name="gain-recording-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-recording-headset-mic">
+		<ctl name="IN1 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-recording-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<!-- interview input volume -->
+	<path name="gain-interview-mic">
+	</path>
+
+	<!-- meeting input volume -->
+	<path name="gain-meeting-mic">
+	</path>
+
+	<!-- lpsd control input volume -->
+	<path name="gain-lpsd_control-mic">
+	</path>
+
+	<!-- voice control input volume -->
+	<path name="gain-voice_control-mic">
+	</path>
+
+	<!-- recognition input volume -->
+	<path name="gain-recognition-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-recognition-headset-mic">
+		<ctl name="IN1 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-recognition-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-recognition-bt-sco-headset-in">
+	</path>
+
+	<!-- bargein samsung input volume -->
+	<path name="gain-bargein_samsung_engine-mic">
+	</path>
+
+	<path name="gain-bargein_samsung_engine-headset-mic">
+	</path>
+
+	<path name="gain-bargein_samsung_engine-bt-sco-headset-in">
+	</path>
+
+	<!-- bargein external input volume-->
+	<path name="gain-bargein_external_engine-mic">
+	</path>
+
+	<path name="gain-bargein_external_engine-headset-mic">
+	</path>
+
+	<path name="gain-bargein_external_engine-bt-sco-headset-in">
+	</path>
+
+	<!-- svoice/carmode samsung input volume -->
+	<path name="gain-dualmic_samsung_engine-mic">
+	</path>
+
+	<path name="gain-dualmic_samsung_engine-headset-mic">
+	</path>
+
+	<path name="gain-dualmic_samsung_engine-bt-sco-headset-in">
+	</path>
+
+	<!-- svoice/carmode external input volume -->
+	<path name="gain-dualmic_external_engine-mic">
+	</path>
+
+	<path name="gain-dualmic_external_engine-headset-mic">
+	</path>
+
+	<path name="gain-dualmic_external_engine-bt-sco-headset-in">
+	</path>
+
+	<!-- communication input volume -->
+	<path name="gain-communication-handset-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-communication-speaker-mic">
+		<ctl name="IN3 Boost Volume" value="54"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-communication-headset-mic">
+		<ctl name="IN1 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-communication-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-communication-bt-sco-headset-in">
+	</path>
+
+	<!-- samsung voip input volume -->
+	<path name="gain-samsung_voip-handset-mic">
+	</path>
+
+	<path name="gain-samsung_voip-speaker-mic">
+	</path>
+
+	<path name="gain-samsung_voip-headset-mic">
+	</path>
+
+	<path name="gain-samsung_voip-headphone-mic">
+	</path>
+
+	<path name="gain-samsung_voip-bt-sco-headset-in">
+	</path>
+
+	<!-- voip input volume -->
+	<path name="gain-voip-handset-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-voip-speaker-mic">
+		<ctl name="IN3 Boost Volume" value="54"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-voip-headset-mic">
+		<ctl name="IN1 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-voip-headphone-mic">
+		<ctl name="IN3 Boost Volume" value="64"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-voip-bt-sco-headset-in">
+	</path>
+
+	<!-- Video call input volume -->
+	<path name="gain-video_call-handset-mic">
+	</path>
+
+	<path name="gain-video_call-speaker-mic">
+	</path>
+
+	<path name="gain-video_call-headset-mic">
+	</path>
+
+	<path name="gain-video_call-headphone-mic">
+	</path>
+
+	<path name="gain-video_call-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE AP NB input volume -->
+	<path name="gain-volte_vt_ap_nb-handset-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-headset-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_nb-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE AP WB input volume -->
+	<path name="gain-volte_vt_ap_wb-handset-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-headset-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_vt_ap_wb-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE VT CP NB input volume -->
+	<path name="gain-volte_vt_cp_nb-handset-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-headset-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_nb-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE CP NB input volume -->
+	<path name="gain-volte_cp_nb-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb-headset-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE CP NB/HANDOVER input volume -->
+	<path name="gain-volte_cp_nb_handover-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb_handover-speaker-mic">
+	</path>
+
+	<!-- VoLTE VT CP NB/EXTRA_VOL input volume -->
+	<path name="gain-volte_cp_nb_extra_vol-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb_extra_vol-speaker-mic">
+	</path>
+
+	<!-- VoLTE VT CP NB/EXTRA_VOL/HANDOVER input volume -->
+	<path name="gain-volte_cp_nb_extra_vol_handover-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_nb_extra_vol_handover-speaker-mic">
+	</path>
+
+	<!-- VoLTE CP WB input volume -->
+	<path name="gain-volte_cp_wb-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_wb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_cp_wb-headset-mic">
+	</path>
+
+	<path name="gain-volte_cp_wb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_cp_wb-bt-sco-headset-in">
+	</path>
+
+	<!-- VoLTE CP WB/EXTRA_VOL input volume -->
+	<path name="gain-volte_cp_wb_extra_vol-handset-mic">
+	</path>
+
+	<path name="gain-volte_cp_wb_extra_vol-speaker-mic">
+	</path>
+
+	<!-- VoLTE VT CP WB input volume -->
+	<path name="gain-volte_vt_cp_wb-handset-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-speaker-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-headset-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-headphone-mic">
+	</path>
+
+	<path name="gain-volte_vt_cp_wb-bt-sco-headset-in">
+	</path>
+
+	<!-- CP Call Input volume -->
+	<!-- NB volume -->
+	<path name="gain-incall_nb-handset-mic">
+	</path>
+
+	<path name="gain-incall_nb-speaker-mic">
+	</path>
+
+	<path name="gain-incall_nb-headset-mic">
+	</path>
+
+	<path name="gain-incall_nb-headphone-mic">
+	</path>
+
+	<path name="gain-incall_nb-bt-sco-headset-in">
+	</path>
+
+	<!-- NB/HANDOVER volume -->
+	<path name="gain-incall_nb_handover-handset-mic">
+	</path>
+
+	<path name="gain-incall_nb_handover-speaker-mic">
+	</path>
+
+	<!-- NB/EXTRA_VOL volume -->
+	<path name="gain-incall_nb_extra_vol-handset-mic">
+	</path>
+
+	<path name="gain-incall_nb_extra_vol-speaker-mic">
+	</path>
+
+	<!-- NB/EXTRA_VOL/HANDOVER volume -->
+	<path name="gain-incall_nb_extra_vol_handover-handset-mic">
+	</path>
+
+	<path name="gain-incall_nb_extra_vol_handover-speaker-mic">
+	</path>
+
+	<!-- WB volume -->
+	<path name="gain-incall_wb-handset-mic">
+	</path>
+
+	<path name="gain-incall_wb-speaker-mic">
+	</path>
+
+	<path name="gain-incall_wb-headset-mic">
+	</path>
+
+	<path name="gain-incall_wb-headphone-mic">
+	</path>
+
+	<path name="gain-incall_wb-bt-sco-headset-in">
+	</path>
+
+	<!-- WB/EXTRA_VOL volume -->
+	<path name="gain-incall_wb_extra_vol-handset-mic">
+	</path>
+
+	<path name="gain-incall_wb_extra_vol-speaker-mic">
+	</path>
+
+	<!-- Loopback Input (no delay) -->
+	<path name="gain-loopback-mic">
+	</path>
+
+	<path name="gain-loopback-2nd-mic">
+	</path>
+
+	<!-- Packet Loopback Input -->
+	<path name="gain-loopback_packet-mic">
+	</path>
+
+	<path name="gain-loopback_packet-2nd-mic">
+	</path>
+
+	<path name="gain-loopback_packet-headset-mic">
+	</path>
+
+	<path name="gain-loopback_packet-handset-dualmic">
+	</path>
+
+	<path name="gain-loopback_packet-speaker-dualmic">
+	</path>
+
+	<!-- Realtime Loopback Input -->
+	<path name="gain-realtimeloopback-mic">
+		<ctl name="IN3 Boost Volume" value="6"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-realtimeloopback-2nd-mic">
+	</path>
+
+	<path name="gain-realtimeloopback-headset-mic">
+		<ctl name="IN1 Boost Volume" value="16"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-realtimeloopback-handset-dualmic">
+	</path>
+
+	<path name="gain-realtimeloopback-speaker-dualmic">
+	</path>
+	
+	<!-- Codec Loopback Input -->
+	<path name="gain-loopback_codec-mic">
+		<ctl name="IN3 Boost Volume" value="37"/>
+		<ctl name="STO1 ADC Capture Volume" value="46"/>
+	</path>
+
+	<path name="gain-loopback_codec-2nd-mic">
+	</path>
+
+	<path name="gain-loopback_codec-headset-mic">
+		<ctl name="IN1 Boost Volume" value="26"/>
+		<ctl name="STO1 ADC Capture Volume" value="47"/>
+	</path>
+
+	<path name="gain-loopback_codec-handset-dualmic">
+	</path>
+
+	<path name="gain-loopback_codec-speaker-dualmic">
+	</path>
+
+	<!-- TTY Mode Input volume -->
+	<path name="gain-tty_mode-hco-mic">
+	</path>
+
+	<path name="gain-tty_mode-full-mic">
+	</path>
+
+	<path name="gain-tty_mode-vco-mic">
+	</path>
+
+	<!-- call forwarding input volume -->
+	<path name="gain-call_forwarding_master-mic">
+	</path>
+
+	<path name="gain-call_forwarding_slave-handset-mic">
+	</path>
+
+	<path name="gain-call_forwarding_slave-speaker-mic">
+	</path>
+
+	<path name="gain-call_forwarding_slave-headset-mic">
+	</path>
+
+	<path name="gain-call_forwarding_slave-headphone-mic">
+	</path>
+
+	<path name="gain-call_forwarding_slave-bt-sco-headset-in">
+	</path>
+
+	<!-- echo(rms) test input volume -->
+	<path name="gain-echo_test-mic">
+	</path>
+
+	<path name="gain-echo_test-2nd-mic">
+	</path>
+
+	<path name="gain-echo_test-dualmic">
+	</path>
+
+	<!-- FM Playback/Recording -->
+	<path name="gain-fm_radio-speaker" >
+	</path>
+
+	<path name="gain-fm_radio-headset" >
+	</path>
+
+	<path name="gain-fm_radio-fm-recording" >
+	</path>
+
+</mixer>
